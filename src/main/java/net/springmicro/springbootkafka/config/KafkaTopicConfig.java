@@ -14,4 +14,10 @@ public class KafkaTopicConfig {
         return TopicBuilder.name("arvind")
                 .build();
     }
+
+    @Bean
+    public NewTopic microJsonTopic(){
+        return TopicBuilder.name("arvind_json")
+                .build();
+    }
 }
